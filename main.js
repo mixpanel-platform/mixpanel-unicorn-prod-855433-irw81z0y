@@ -26,3 +26,5 @@ jQuery(document).ready(function($){
 		var actual = $(this);
 		$('<b>'+actual.css("background-color")+'</b>').insertAfter(actual);
 	});
+	
+});

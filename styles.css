@@ -120,12 +120,11 @@ header {
   right: 120%;
   top: 50%;
   margin-top: -20px;
-  width: 140px;
+  width: 150px;
   height: 40px;
   line-height: 40px;
   white-space: nowrap;
   text-align: center;
-  font-size: 1.2rem;
   -webkit-transition: opacity .2s 0s, visibility 0s .2s;
   -moz-transition: opacity .2s 0s, visibility 0s .2s;
   transition: opacity .2s 0s, visibility 0s .2s;

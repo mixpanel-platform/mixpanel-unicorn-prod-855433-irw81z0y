@@ -1,3 +1,72 @@
 .cd-box span {
   color: #5f8ee4;
 }
+
+.cd-colors li {
+    width: 19%;
+    float: left;
+    margin: 0 1.25% 1em 0;
+    text-align: center;
+}
+
+.cd-box {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    padding: 6px;
+}
+
+.cd-colors .cd-color-swatch {
+    position: relative;
+    width: 100%;
+    padding: 50% 0;
+}
+
+.cd-colors li:nth-of-type(1) .cd-color-swatch {
+  background: #61adf0;
+}
+.cd-colors li:nth-of-type(1) .cd-color-swatch::before {
+  background: #61adf0;
+}
+.cd-colors li:nth-of-type(1) .cd-color-swatch::after {
+  background: #61adf0;
+}
+.cd-colors li:nth-of-type(2) .cd-color-swatch {
+  background: #3f516b;
+}
+.cd-colors li:nth-of-type(2) .cd-color-swatch::before {
+  background: #3f516b;
+}
+.cd-colors li:nth-of-type(2) .cd-color-swatch::after {
+  background: #3f516b;
+}
+.cd-colors li:nth-of-type(3) .cd-color-swatch {
+  background: #666666;
+}
+.cd-colors li:nth-of-type(3) .cd-color-swatch::before {
+  background: #666666;
+}
+.cd-colors li:nth-of-type(3) .cd-color-swatch::after {
+  background: #666666;
+}
+.cd-colors li:nth-of-type(4) .cd-color-swatch {
+  background: #c1d1dc;
+}
+.cd-colors li:nth-of-type(4) .cd-color-swatch::before {
+  background: #c1d1dc;
+}
+.cd-colors li:nth-of-type(4) .cd-color-swatch::after {
+  background: #c1d1dc;
+}
+.cd-colors li:nth-of-type(5) .cd-color-swatch {
+  background: #ffffff;
+}
+.cd-colors li:nth-of-type(5) .cd-color-swatch::before {
+  background: #ffffff;
+}
+.cd-colors li:nth-of-type(5) .cd-color-swatch::after {
+  background: #ffffff;
+}
+
+

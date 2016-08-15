@@ -101,3 +101,14 @@ header {
     display: block;
 }
 
+.cd-download {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 80px;
+    background-image: url("../assets/icon-download.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+

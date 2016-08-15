@@ -1,5 +1,6 @@
 .cd-text span {
   color: #5f8ee4;
+  font-size: 16px;
 }
 
 .cd-colors li {
@@ -14,6 +15,7 @@
     border-radius: 3px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
     padding: 6px;
+    font-size: 16px;
 }
 
 .cd-colors .cd-color-swatch {

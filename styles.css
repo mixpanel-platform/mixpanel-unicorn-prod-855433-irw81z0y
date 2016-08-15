@@ -101,6 +101,12 @@ header {
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
+
+.cd-download span {
+    opacity: 0;
+    visibility: hidden;
+}
+
 .cd-download span {
   /* tooltip */
   position: absolute;

@@ -3,16 +3,15 @@
 }
 
 .cd-colors li {
-    width: 19%;
+    width: 17%;
     float: left;
-    margin: 0 1.25% 1em 0;
+    margin: 0 6px 1em;
     text-align: center;
 }
 
 .cd-box {
     border: 1px solid #e6e6e6;
     border-radius: 3px;
-    background: #ffffff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
     padding: 6px;
 }

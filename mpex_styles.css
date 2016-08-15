@@ -14,6 +14,9 @@ h4 { font-size: 1.12em; }
 h5 { font-size: .83em; }
 h6 { font-size: .75em; }
 
+/* General */
+.center { text-align: center }
+
 /* Links */
 a {
     position: relative;
@@ -32,7 +35,6 @@ a:hover {
     color: #69b5f8;
     text-decoration: none;
 }
-
 
 /* Buttons */
 a.button:hover {
@@ -260,6 +262,8 @@ a.button:hover {
     background-image: -webkit-linear-gradient(#6ab5f2 0, #53a0ee 100%);
     background-image: linear-gradient(#6ab5f2 0, #53a0ee 100%)
 }
+
+/* Input Box */
 
 .mpex_input {
         -webkit-border-radius: 3px;

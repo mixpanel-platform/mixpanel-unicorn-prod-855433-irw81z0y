@@ -27,4 +27,26 @@ jQuery(document).ready(function($){
 		$('<b>'+actual.css("background-color")+'</b>').insertAfter(actual);
 	});
 	
+	/*******************
+		typography
+	********************/
+	var heading = $('#typography h1'),
+		headingDescriptionText = heading.children('span').eq(0),
+		body = heading.next('p'),
+		bodyDescriptionText = body.children('span').eq(0);
+		
+	setTypography(heading, headingDescriptionText);
+	setTypography(body, bodyDescriptionText);
+	$(window).on('resize', function(){
+		setTypography(heading, headingDescriptionText);
+		setTypography(body, bodyDescriptionText);
+	});
+
+	function setTypography(element, textElement) {
+		var fontSize = Math.round(element.css('font-size').replace('px',''))+'px',
+			fontFamily = (element.css('font-family').split(','))[0].replace(/\'/g, '').replace(/\"/g, ''),
+			fontWeight = element.css('font-weight');
+		textElement.text(fontWeight + ' '+ fontFamily+' '+fontSize );
+	}
+	
 });

@@ -82,6 +82,14 @@ header {
   background: #ffffff;
 }
 
+.cd-download:hover span {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity .2s 0s, visibility 0s 0s;
+  -moz-transition: opacity .2s 0s, visibility 0s 0s;
+  transition: opacity .2s 0s, visibility 0s 0s;
+}
+
 .cd-download span {
   /* tooltip */
   background: #5f8ee4;
@@ -136,12 +144,5 @@ header {
   border-top-color: transparent;
   border-bottom-color: transparent;
   border-right-color: transparent;
-}
-.no-touch .cd-download:hover span {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transition: opacity .2s 0s, visibility 0s 0s;
-  -moz-transition: opacity .2s 0s, visibility 0s 0s;
-  transition: opacity .2s 0s, visibility 0s 0s;
 }
 

@@ -73,4 +73,22 @@
   background: #ffffff;
 }
 
+.cd-download span {
+  /* tooltip */
+  background: #5f8ee4;
+  color: #ffffff;
+}
+.cd-download span::before {
+  /* right arrow color */
+  border-color: #5f8ee4;
+      position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 80px;
+    background-image: url("../assets/icon-download.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+}
 

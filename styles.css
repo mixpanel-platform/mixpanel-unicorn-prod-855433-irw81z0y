@@ -1,6 +1,9 @@
+.cd-text{
+  font-size: 16px;
+}
+
 .cd-text span {
   color: #5f8ee4;
-  font-size: 16px;
 }
 
 .cd-colors li {

@@ -30,22 +30,21 @@ jQuery(document).ready(function($){
 	/*******************
 		typography
 	********************/
-	var heading = $('#typography h1'),
-		h1 = heading.children('span').eq(0),
-		h2 = heading.children('span').eq(0),
-		h3 = heading.children('span').eq(0),
-		h4 = heading.children('span').eq(0),
-		h5 = heading.children('span').eq(0),
-		h6 = heading.children('span').eq(0),
+	var h1 = $('#typography h1'),
+		h2 = $('#typography h1'),
+		h3 = $('#typography h1'),
+		h4 = $('#typography h1'),
+		h5 = $('#typography h1'),
+		h6 = $('#typography h1'),
 		body = heading.next('p'),
 		bodyDescriptionText = body.children('span').eq(0);
 		
-	setTypography(heading, h1);
-	setTypography(heading, h2);
-	setTypography(heading, h3);
-	setTypography(heading, h4);
-	setTypography(heading, h5);
-	setTypography(heading, h6);
+	setTypography(h1, h1.children('span').eq(0));
+	setTypography(h2, h2.children('span').eq(0));
+	setTypography(h3, h3.children('span').eq(0));
+	setTypography(h4, h4.children('span').eq(0));
+	setTypography(h5, h5.children('span').eq(0));
+	setTypography(h6, h6.children('span').eq(0));
 	setTypography(body, bodyDescriptionText);
 
 	function setTypography(element, textElement) {

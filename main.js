@@ -31,16 +31,22 @@ jQuery(document).ready(function($){
 		typography
 	********************/
 	var heading = $('#typography h1'),
-		headingDescriptionText = heading.children('span').eq(0),
+		h1 = heading.children('span').eq(0),
+		h2 = heading.children('span').eq(0),
+		h3 = heading.children('span').eq(0),
+		h4 = heading.children('span').eq(0),
+		h5 = heading.children('span').eq(0),
+		h6 = heading.children('span').eq(0),
 		body = heading.next('p'),
 		bodyDescriptionText = body.children('span').eq(0);
 		
-	setTypography(heading, headingDescriptionText);
+	setTypography(heading, h1);
+	setTypography(heading, h2);
+	setTypography(heading, h3);
+	setTypography(heading, h4);
+	setTypography(heading, h5);
+	setTypography(heading, h6);
 	setTypography(body, bodyDescriptionText);
-	$(window).on('resize', function(){
-		setTypography(heading, headingDescriptionText);
-		setTypography(body, bodyDescriptionText);
-	});
 
 	function setTypography(element, textElement) {
 		var fontSize = Math.round(element.css('font-size').replace('px',''))+'px',

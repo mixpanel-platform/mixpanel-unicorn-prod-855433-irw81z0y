@@ -36,7 +36,7 @@ jQuery(document).ready(function($){
 		h4 = $('#typography h4'),
 		h5 = $('#typography h5'),
 		h6 = $('#typography h6'),
-		body = h1.next('p'),
+		body = h6.next('p'),
 		bodyDescriptionText = body.children('span').eq(0);
 		
 	setTypography(h1, h1.children('span').eq(0));

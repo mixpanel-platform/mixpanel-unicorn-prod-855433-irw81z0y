@@ -9,6 +9,8 @@ header {
 
 .cd-text{
   font-size: 16px;
+  font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
+
 }
 
 .cd-text span {

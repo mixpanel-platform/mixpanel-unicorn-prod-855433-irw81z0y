@@ -31,11 +31,11 @@ jQuery(document).ready(function($){
 		typography
 	********************/
 	var h1 = $('#typography h1'),
-		h2 = $('#typography h1'),
-		h3 = $('#typography h1'),
-		h4 = $('#typography h1'),
-		h5 = $('#typography h1'),
-		h6 = $('#typography h1'),
+		h2 = $('#typography h2'),
+		h3 = $('#typography h3'),
+		h4 = $('#typography h4'),
+		h5 = $('#typography h5'),
+		h6 = $('#typography h6'),
 		body = heading.next('p'),
 		bodyDescriptionText = body.children('span').eq(0);
 		
